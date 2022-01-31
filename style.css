@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}body {
+    background-color: #262626;
+ }
+
+
+header {
+    display: block;
+    height: 100vh;
+}
+ .hero-img {
+    display: inline;
+    float: right;
+    margin: 0;
+}
+
+.landing {
+    height: 50vw;
+    margin: 0 3vw;
+    width: 45vw;
+}
+
+.hero-content {
+    display: inline;
+    float: left;
+}
+
+ .line-dec {
+     background-color: #CDCDCD;
+     height: 0.5vw;
+     width: 12vw;
+     margin: 20% 50% 10% 50%;
+ }
+
+ .behance {
+     margin: 30vh 0 0 50%;
+     text-decoration: none;
+     color: #262626;
+     font-weight: 600;
+     font-size: 1vw;
+     border-radius: 50px;
+     background-color: #58B0A0;
+     padding: 1vw 2vw;
+ }
+
+ .behance:hover {
+     background-color: transparent;
+     color: #58B0A0;
+     border: solid #58B0A0;
+ }
+
+
+ .hero-content > h1 , p{
+     width: 30vw;
+     color: #C1C1C1;
+     margin: 0% 50%;
+ }
+ .hero-content > p {
+     margin-top: 10vh;
+     width: 30vw;
+     margin-bottom: 12vw;
+     font-size: 1vw;
+ }
+
+ .hero-content > h1 {
+     width: 10vw;
+     font-weight: 300;
+     color: #ffffff;
+     font-size: 2vw;
+ }
+
+ span {
+     font-weight: 600;
+     color: #58B0A0;
+ }
+
+
+  .Triangle {
+     position: absolute;
+     top: 30vh;
+     left: -10vw;
+     width: 1vw;
+ } 
+
+ .about {
+    width: 80vw;
+    margin: 10vw auto 50vw auto;
+ }
+
+ .about  > h2 {
+    margin: 10vh auto;
+    display: block;
+    color: #CDCDCD;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2vw;
+}
+
+
+ .about-text {
+     width: 35vw;
+     font-size: 1.2vw;
+     float: right;
+     margin: auto;
+     margin-right: 5vw;
+     line-height: 200%;
+ }
+
+ .about-img {
+     width: 20vw;
+     height: 20vw;
+     display: inline;
+     float: left;
+     margin-left: 10vw;
+     margin-top: 2vh;
+     isolation: isolate;
+ }
+
+
+ .Services {
+     width: 80vw;
+     margin: auto;
+     margin-bottom: 20vw;
+ }
+
+.Services > h2 {
+     margin: 10vh auto;
+     display: block;
+     color: #CDCDCD;
+     text-align: center;
+     font-family: Poppins;
+     font-size: 2vw;
+ }
+
+ .S1, .S2 , .S3 {
+     width: 18vw;
+     height: 22vw;
+     background-color: #CDCDCD;
+     border-radius: 10px;
+ }
+
+ .S1{
+     float: left;
+     margin: 0 0 0 10vw;
+ }
+ .S2 {
+     float: right;
+     margin: 0 10vw 0 0;
+ }
+
+ .S3 {
+     margin: 0 auto;
+ }
+
+ .S1:hover {
+     width: 20vw;
+     height: 24vw;
+ }
+ .S2:hover {
+    width: 20vw;
+    height: 24vw;
+}
+.S3:hover {
+    width: 20vw;
+    height: 24vw;
+}
+
+ .icon {
+    margin: 11%;
+    width: 30%;
+    box-shadow: #58B0A0;
+ }
+
+ .card-title {
+     width: 10px;
+     margin: 0 11%;
+     font-weight: 400;
+     color: #000000;
+     font-size: 1.5vw;
+ }
+
+ .card-title > span {
+     color: #000000;
+     font-weight: 600;
+     font-size: 2vw;
+ }
+
+ .card-btn {
+     margin: 18% 11%;
+     color: #000000;
+     border-radius: 50px;
+     float: left;
+ }
+
+
+ .card-btn > a{
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+ }
+
+ .arrow {
+     height: 3.2%;
+     width: 4.5%;
+ }
+
+.conatact {
+    width: 90%;
+    margin: 50vw auto;
+    margin-bottom: 50vw;
+}
+
+.contact > h2  {
+    margin: 10vh auto;
+    display: block;
+    color: #CDCDCD;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2vw;
+}
+.contact-info > h2 {
+    width: 8vw;
+    font-size: 2vw;
+    color: #CDCDCD;
+    font-weight: 400;
+    margin-top: 3vh;
+}
+.special {
+    font-size: 0.8vw;
+    color: #ffffff;
+    opacity: 50%;
+    font-weight: 300;
+    margin: 0 auto;
+    font-size: 1vw;
+}
+
+.special1 {
+    font-size: 1vw;
+}
+  
+
+.contact-info {
+    float: left;
+    margin: 5vh 0 5vh 20vw;
+    width: 8vw;
+    display: inline;
+    float: left;
+}
+
+
+
+
+.footer {
+    background-color: #324945;
+    height: 35vh;
+    margin-top: 100vh;
+}
+
+.contact-form{
+    width: 53vw;
+    float: right;
+    display: inline;
+}
+.Name , .Mail {
+    margin: 1vw;
+    width: 19vw;
+    height: 7vh;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #324945;
+}
+
+.Title {
+    margin: 1vw;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #324945;
+    width: 40vw;
+    height: 12vh;
+}
+
+.Message {
+    margin: 1vw;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #324945;
+    width: 40vw;
+    height: 20vh;
+    display: block;
+    margin-bottom: 5vh;
+}
+
+.btn {
+    background-color: #58B0A0;
+    padding: 2vh 2vw;
+    border-radius: 100px;
+    border-color: transparent;
+    font-weight: 500;
+    font-size: 1vw;
+    margin: 1vw;
+    text-decoration: none;
+    color: #262626;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #58B0A0;
+    border: solid #58B0A0;
+}
+
+.btn > img {
+    height: 1.5vh;
+}
+
+.f1  {
+    width: 15vw;
+    height: 3.5vw;
+    background-color: #58B0A0;
+}
+
+.cp {
+    margin: 10% auto;
+    text-align: center;
+    color: #CDCDCD;
+}
